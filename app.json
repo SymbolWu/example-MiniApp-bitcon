@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/quotation/index",
+    "pages/discover/index",
+    "pages/profile/index",
+    "pages/work/index"
+  ],
+  "tabBar": {
+    "textColor": "#9097B3",
+    "items": [
+      {
+        "pagePath": "pages/quotation/index",
+        "name": "行情",
+        "icon": "asset/quotationSelected.png",
+        "activeIcon": "asset/quotation.png"
+      },
+      {
+        "pagePath": "pages/work/index",
+        "name": "搬砖",
+        "icon": "asset/workSelected.png",
+        "activeIcon": "asset/work.png"
+      },
+      {
+        "pagePath": "pages/discover/index",
+        "name": "发现",
+        "icon": "asset/discoverSelected.png",
+        "activeIcon": "asset/discover.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "name": "我的",
+        "icon": "asset/mineSelected.png",
+        "activeIcon": "asset/mine.png"
+      }
+    ],
+    "selectedColor": "#3377FF"
+  },
+  "window": {
+    "defaultTitle": "币看看Demo"
+  }
+}

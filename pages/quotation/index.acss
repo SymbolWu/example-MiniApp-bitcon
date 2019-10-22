@@ -1,0 +1,51 @@
+/* .item-container {
+  text-align: center;
+} */
+
+.coin-list {
+  background: '#F7F7F7';
+}
+
+.am-list-header {
+  background: rgb(247, 247, 247)
+}
+
+.list-title {
+  text-align: center;
+  font-size: 28rpx;
+}
+
+.item-img {
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 6rpx;
+}
+
+.item-coin-container {
+  display: inline-block
+}
+
+.item-main {
+  font-size: 28rpx;
+}
+
+.item-second {
+  font-size: 24rpx;
+  /* text-align: center; */
+}
+
+.item-main-buy {
+  font-size: 28rpx;
+  text-align: right;
+}
+
+.item-second-buy {
+  font-size: 24rpx;
+  text-align: right;
+  /* text-align: center; */
+}
+
+.item-float {
+  font-size: 28rpx;
+  text-align: center;
+}

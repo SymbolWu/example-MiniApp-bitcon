@@ -1,0 +1,14 @@
+{
+  "name": "bitcoin",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wu Xinbo",
+  "license": "ISC",
+  "dependencies": {
+    "mini-antui": "^0.4.34"
+  }
+}
