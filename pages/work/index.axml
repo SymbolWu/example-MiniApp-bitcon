@@ -1,4 +1,37 @@
 <!--index.wxml-->
-<view class="container">
-搬砖
+<view>
+  <scroll-view style="height: 100vh;" scroll-y>
+    <list class="coin-list">
+      <view slot="header">
+        <flex>
+          <block a:for="{{listTitle}}">
+            <flex-item>
+              <view class="list-title">{{item}}</view></flex-item>
+          </block>
+        </flex>
+      </view>
+      <block a:for="{{showList}}">
+        <list-item index="showList-{{index}}" key="showList-{{index}}" last="{{index === (showList.length - 1)}}">
+          <flex>
+            <flex-item>
+              <view class="item-main">{{item.showCoin}}</view>
+            </flex-item>
+            <flex-item>
+              <view class="item-main-buy">{{item.showLow}}</view>
+              <view class="item-second-buy">{{item.showExchange}}</view>
+            </flex-item>
+            <flex-item>
+              <view class="item-main-buy">{{item.showHigh}}</view>
+              <view class="item-second-buy">{{item.showExchange}}</view>
+            </flex-item>
+            <flex-item>
+              <view class="item-float  item-float-red">
+                  {{`￥${(item.showHigh-item.showLow).toFixed(2)}`}}
+              </view>
+            </flex-item>
+          </flex>
+        </list-item>
+      </block>
+    </list>
+  </scroll-view>
 </view>

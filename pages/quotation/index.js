@@ -1,6 +1,6 @@
 //index.js
 //获取应用实例
-import TickerItem from './entity'
+import TickerItem from '../../entity/TickerEntity'
 import { quotationItem, ticker, bitcoinImg } from '../mockData'
 Page({
   data: {

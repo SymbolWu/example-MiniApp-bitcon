@@ -48,4 +48,9 @@
 .item-float {
   font-size: 28rpx;
   text-align: center;
+  color: #2EAB40
+}
+
+.item-float-red {
+  color: #F84040
 }
